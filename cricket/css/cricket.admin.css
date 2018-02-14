@@ -1,0 +1,59 @@
+/* Menu Enhancements */
+#adminmenu .wp-menu-image img {
+	padding: 3px 0 0;
+	opacity: .6;
+	filter: alpha(opacity=60);
+}
+
+.cricket-general-form,
+.cricket-sidebar-preview {
+	display: inline-block;
+	float: left;
+}
+
+.cricket-sidebar-preview {
+	width: 280px;
+	background-color: #1F1F1F;
+	padding: 20px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.cricket-sidebar {
+	display: block;
+	text-align: center;
+}
+
+h1.cricket-username,
+h2.cricket-description {
+	font-weight: 100;
+	color: #fff;
+}
+
+h1.cricket-username {
+	font-size: 24px;
+	margin: 0 0 10px;
+}
+
+h2.cricket-description {
+	font-size: 13px;
+	margin: 0 0 20px;
+}
+
+.image-container {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.profile-picture {
+	width: 122px;
+	height: 122px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
